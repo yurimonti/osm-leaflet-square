@@ -1,3 +1,6 @@
+# osm-lealfet-square
+Generate Squares Layer from couples of points over a Map based on Leaflet.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -5,30 +8,31 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 First, run the development server:
 
 ```bash
+#install dependencies
+npm i
+#run development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+You can start read used tools documentation or start to use the prototype.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## How to use
 
-## Learn More
+- Click on "Table" link on the left upper corner of the homepage.
+- (Optional) Is possible to click the "Prefill" button to fill the table with 3 default squares.
+- Fill the table with some cordinates and write color of the square that will be drawn (Points of each row are the points that represent vertices of the resulted square).
+- Once you filled the table click on "Apply Squares" button.
+- There will be the resulted squares on the map.
 
-To learn more about Next.js, take a look at the following resources:
+## Tech Stack
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Leaflet Documentation](https://leafletjs.com/) - learn about Leaflet features and API.
+- [Leaflet-React Documentation](https://react-leaflet.js.org/) - learn about leaflet library for React.
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+[MIT](https://choosealicense.com/licenses/mit/)
